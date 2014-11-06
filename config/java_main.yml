@@ -1,2 +1,2 @@
-arguments: <%= ENV['VCAP_APP_HOST'] %> <%= ENV['VCAP_APP_PORT'] %>  
-java_main_class: net.orpiske.cxf.example.webservice.ServerMain
+# arguments: <%= ENV['VCAP_APP_HOST'] %> <%= ENV['VCAP_APP_PORT'] %>  
+# java_main_class: net.orpiske.cxf.example.webservice.ServerMain
