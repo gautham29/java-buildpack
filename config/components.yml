@@ -18,9 +18,6 @@
 containers:
   - "JavaBuildpack::Container::DistZip"
   - "JavaBuildpack::Container::JavaMain"
-  - "JavaBuildpack::Container::SpringBoot"
-  - "JavaBuildpack::Container::SpringBootCLI"
-  - "JavaBuildpack::Container::Tomcat"
 
 # In order to use Oracle JREs instead of OpenJDK, you must comment out the OpenJDK line and uncomment the Oracle line.
 # Please see the documentation for more detail.
@@ -29,12 +26,4 @@ jres:
 # - "JavaBuildpack::Jre::OracleJRE"
 
 frameworks:
-  - "JavaBuildpack::Framework::AppDynamicsAgent"
   - "JavaBuildpack::Framework::JavaOpts"
-  - "JavaBuildpack::Framework::MariaDbJDBC"
-  - "JavaBuildpack::Framework::NewRelicAgent"
-  - "JavaBuildpack::Framework::PlayFrameworkAutoReconfiguration"
-  - "JavaBuildpack::Framework::PlayFrameworkJPAPlugin"
-  - "JavaBuildpack::Framework::PostgresqlJDBC"
-  - "JavaBuildpack::Framework::SpringAutoReconfiguration"
-  - "JavaBuildpack::Framework::SpringInsight"
